@@ -15,7 +15,7 @@ namespace teste2
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+        /*Inicio do Projeto*/
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
