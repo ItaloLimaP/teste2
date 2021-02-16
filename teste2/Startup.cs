@@ -32,7 +32,7 @@ namespace teste2
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Teste de envio definitivo");
+                    await context.Response.WriteAsync("envio definitivo");
                 });
             });
         }
